@@ -42,22 +42,11 @@ void bcktrChoose() {
 		
 		}
 	} while (choice != 'e');
-	
-
-	//back.permutations(3, st, 1);
-	//back.arrangements(4, 2, st, 1);
-	//back.combinations(4, 3, st, 1);
-
 }
 
 int main()
 {
-	/*nums n1;
-	n1.readInt();
-	*/
-	bcktrChoose();
-	
-    
+	bcktrChoose();   
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
